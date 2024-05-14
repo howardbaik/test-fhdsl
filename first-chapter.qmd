@@ -2,7 +2,7 @@
 
 ## Learning Objectives
 
-Blah blah
+Blah blah blah
 
 ## Libraries
 
