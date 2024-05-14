@@ -1,0 +1,112 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "AI for Dummies",
+    "section": "",
+    "text": "Quarto Based OTTR Course\nThis course is part of a series of courses for the Informatics Technology for Cancer Research (ITCR) called the Informatics Technology for Cancer Research Education Resource. This material was created by the ITCR Training Network (ITN) which is a collaborative effort of researchers around the United States to support cancer informatics and data science training through resources, technology, and events. This initiative is funded by the following grant: National Cancer Institute (NCI) UE5 CA254170. Our courses feature tools developed by ITCR Investigators and make it easier for principal investigators, scientists, and analysts to integrate cancer informatics into their workflows. Please see our website at www.itcrtraining.org for more information.",
+    "crumbs": [
+      "Quarto Based OTTR Course"
+    ]
+  },
+  {
+    "objectID": "index.html#available-course-formats",
+    "href": "index.html#available-course-formats",
+    "title": "AI for Dummies",
+    "section": "Available Course Formats",
+    "text": "Available Course Formats\nThis course is available in multiple formats which allows you to take it in the way that best suites your needs. You can take it for certificate which can be for free or fee.\n\nThe material for this course can be viewed without login requirement on this website. This format might be most appropriate for you if you rely on screen-reader technology.\nThis course can be taken for free certification through Leanpub.\nThis course can be taken on Coursera for certification here (but it is not available for free on Coursera).\nOur courses are open source, you can find the source material for this course on GitHub.",
+    "crumbs": [
+      "Quarto Based OTTR Course"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "\n1  New Chapter\n",
+    "section": "",
+    "text": "1.1 Learning Objectives\nEvery chapter also needs Learning objectives.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>New Chapter</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#libraries",
+    "href": "intro.html#libraries",
+    "title": "\n1  New Chapter\n",
+    "section": "\n1.2 Libraries",
+    "text": "1.2 Libraries\nFor this chapter, we’ll need the following packages attached:\n*Remember to add any additional packages you need to your course’s own docker image.\n\nlibrary(magrittr)",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>New Chapter</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#topic-of-section",
+    "href": "intro.html#topic-of-section",
+    "title": "\n1  New Chapter\n",
+    "section": "\n1.3 Topic of Section",
+    "text": "1.3 Topic of Section\nYou can write all your text in sections like this, using ## to indicate a new header. you can use additional pound symbols to create lower levels of headers.\nSee here for additional general information about how you can format text within R Markdown files. In addition, see here for more in depth and advanced options.\n\n1.3.1 Subtopic\nHere’s a subheading (using three pound symbols) and some text in this subsection!",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>New Chapter</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#code-examples",
+    "href": "intro.html#code-examples",
+    "title": "\n1  New Chapter\n",
+    "section": "\n1.4 Code examples",
+    "text": "1.4 Code examples\nYou can demonstrate code like this:\n\noutput_dir &lt;- file.path(\"resources\", \"code_output\")\nif (!dir.exists(output_dir)) {\n  dir.create(output_dir)\n}\n\nWarning in dir.create(output_dir): cannot create dir 'resources/code_output',\nreason 'No such file or directory'\n\n\nAnd make plots too:\n\nhist_plot &lt;- hist(iris$Sepal.Length)\n\n\n\n\n\n\n\nYou can also save these plots to file:\n\npng(file.path(output_dir, \"test_plot.png\"))\nhist_plot\n\n$breaks\n[1] 4.0 4.5 5.0 5.5 6.0 6.5 7.0 7.5 8.0\n\n$counts\n[1]  5 27 27 30 31 18  6  6\n\n$density\n[1] 0.06666667 0.36000000 0.36000000 0.40000000 0.41333333 0.24000000 0.08000000\n[8] 0.08000000\n\n$mids\n[1] 4.25 4.75 5.25 5.75 6.25 6.75 7.25 7.75\n\n$xname\n[1] \"iris$Sepal.Length\"\n\n$equidist\n[1] TRUE\n\nattr(,\"class\")\n[1] \"histogram\"\n\ndev.off()\n\nquartz_off_screen \n                2",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>New Chapter</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#image-example",
+    "href": "intro.html#image-example",
+    "title": "\n1  New Chapter\n",
+    "section": "\n1.5 Image example",
+    "text": "1.5 Image example\nHow to include a Google slide. It’s simplest to use the ottrpal package:",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>New Chapter</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#video-examples",
+    "href": "intro.html#video-examples",
+    "title": "\n1  New Chapter\n",
+    "section": "\n1.6 Video examples",
+    "text": "1.6 Video examples\nYou may also want to embed videos in your course. If alternatively, you just want to include a link you can do so like this:\nCheck out this link to a video using markdown syntax.\n\n1.6.1 Using knitr\n\nTo embed videos in your course, you can use knitr::include_url() like this: Note that you should use echo=FALSE in the code chunk because we don’t want the code part of this to show up. If you are unfamiliar with how R Markdown code chunks work, read this.\n\n\n\n\n\n1.6.2 Using HTML\n\n\n\n1.6.3 Using knitr\n\n\n\n\n\n\n1.6.4 Using HTML",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>New Chapter</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#website-examples",
+    "href": "intro.html#website-examples",
+    "title": "\n1  New Chapter\n",
+    "section": "\n1.7 Website Examples",
+    "text": "1.7 Website Examples\nYet again you can use a link to a website like so:\nA Website\nYou might want to have users open a website in a new tab by default, especially if they need to reference both the course and a resource at once.\nA Website\nOr, you can embed some websites.\n\n1.7.1 Using knitr\n\nThis works:\n\n\n\n\n\n1.7.2 Using HTML",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>New Chapter</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#stylized-boxes",
+    "href": "intro.html#stylized-boxes",
+    "title": "\n1  New Chapter\n",
+    "section": "\n1.8 Stylized boxes",
+    "text": "1.8 Stylized boxes\nOccasionally, you might find it useful to emphasize a particular piece of information. To help you do so, we have provided css code and images (no need for you to worry about that!) to create the following stylized boxes.\nYou can use these boxes in your course with either of two options: using HTML code or Pandoc syntax.\n\n1.8.1 Using rmarkdown container syntax\nThe rmarkdown package allows for a different syntax to be converted to the HTML that you just saw and also allows for conversion to LaTeX. See the Bookdown documentation for more information. Note that Bookdown uses Pandoc.\n::: {.notice}\nNote using rmarkdown syntax.\n\n:::\n\nNote using rmarkdown syntax.\n\nAs an example you might do something like this:\n\nPlease click on the subsection headers in the left hand navigation bar (e.g., 2.1, 4.3) a second time to expand the table of contents and enable the scroll_highlight feature (see more)\n\n\n1.8.2 Using HTML\nTo add a warning box like the following use:\n\nFollowed by the text you want inside\n\nThis will create the following:\n\nFollowed by the text you want inside\n\nHere is a &lt;div class = \"warning\"&gt; box:\n\nNote text\n\nHere is a &lt;div class = \"github\"&gt; box:\n\nGitHub text\n\nHere is a &lt;div class = \"dictionary\"&gt; box:\n\ndictionary text\n\nHere is a &lt;div class = \"reflection\"&gt; box:\n\nreflection text\n\nHere is a &lt;div class = \"wip\"&gt; box:\n\nWork in Progress text",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>New Chapter</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#dropdown-summaries",
+    "href": "intro.html#dropdown-summaries",
+    "title": "\n1  New Chapter\n",
+    "section": "\n1.9 Dropdown summaries",
+    "text": "1.9 Dropdown summaries\n\nYou can hide additional information in a dropdown menu\n\nHere’s more words that are hidden.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>New Chapter</span>"
+    ]
+  }
+]
